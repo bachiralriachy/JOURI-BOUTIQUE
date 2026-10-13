@@ -1,0 +1,886 @@
+{
+  "settings": {
+    "storeName": {
+      "en": "JOURI BOUTIQUE",
+      "ar": "جوري بوتيك"
+    },
+    "tagline": {
+      "en": "Premium Women's Fashion & Haute Couture",
+      "ar": "أرقى الأزياء النسائية ومجموعات الكروشيه والقفاطين"
+    },
+    "logoUrl": "/jouri-logo.png",
+    "logoText": "JOURI BOUTIQUE",
+    "logoArabicText": "جوري بوتيك",
+    "faviconUrl": "/jouri-logo.png",
+    "phone": "+961 81 522 399",
+    "whatsappNumber": "96181522399",
+    "instagramUrl": "https://www.instagram.com/jouriboutiquee/",
+    "instagramHandle": "@jouriboutiquee",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "secondaryCurrency": {
+      "code": "LBP",
+      "symbol": "L.L",
+      "rate": 89500,
+      "enabled": true
+    },
+    "shippingFee": 3,
+    "freeShippingThreshold": 100,
+    "returnPolicy": {
+      "en": "We accept exchanges within 3 days of delivery in pristine, unworn condition with original tags intact.",
+      "ar": "نقبل الاستبدال في غضون 3 أيام من الاستلام شرط أن تكون القطعة بحالتها الأصلية مع البطاقات."
+    },
+    "aboutStory": {
+      "en": "JOURI BOUTIQUE represents the pinnacle of modern feminine sophistication, blending artisanal crochet craftsmanship, hand-embroidered kaftans, and effortless ready-to-wear silhouettes designed for women of distinguished elegance.",
+      "ar": "يمثل جوري بوتيك قمة الأناقة النسائية المعاصرة، جامعاً بين كروشيه الحرفية اليدوية، والقفاطين المطرزة الفاخرة، والأطقم اليومية المنسقة بذوق رفيع."
+    },
+    "locationAddress": {
+      "en": "Beirut & South Lebanon · Fast Worldwide & Nationwide Delivery",
+      "ar": "بيروت وجنوب لبنان · توصيل سريع لجميع المناطق اللبنانية ولكافة دول العالم"
+    },
+    "announcement": {
+      "enabled": true,
+      "text": {
+        "en": "✨ Discover Our New Arrivals · Handmade Crochet Vests, Striped Sweatshirts & Luxury Kaftans · Order via WhatsApp",
+        "ar": "✨ تشكيلة الموسم الجديد متوفرة الآن · جيليهات كروشيه يدوية، سويت شيرت مقلمة، وقفاطين راقية · الطلب عبر واتساب"
+      }
+    },
+    "hero": {
+      "title": {
+        "en": "Discover Your Elegant Style",
+        "ar": "اكتشفي أسلوبكِ الراقي والفريد"
+      },
+      "subtitle": {
+        "en": "Timeless fashion, beautiful details, and effortless elegance.",
+        "ar": "أزياء خالدة، تفاصيل مميزة، وأناقة لا تتلاشى تناسب كل لحظاتكِ الجميلة."
+      },
+      "ctaText": {
+        "en": "Shop Collection",
+        "ar": "تسوقي المجموعة"
+      },
+      "imageUrl": "/src/assets/images/hero_luxury_womens_boutique_1791816085374.jpg"
+    },
+    "themeColors": {
+      "primary": "#141413",
+      "accent": "#C5A880",
+      "blush": "#FFF5F5",
+      "background": "#FAF8F5"
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-new",
+      "slug": "new-arrivals",
+      "name": {
+        "en": "New Arrivals",
+        "ar": "وصل حديثاً"
+      },
+      "description": {
+        "en": "The latest seasonal drops and curated women's pieces",
+        "ar": "أحدث القطع والتصاميم الحصرية لهذا الموسم"
+      },
+      "image": "/src/assets/images/outfit_coral_fringe_vest_set_1791815939488.jpg",
+      "order": 1
+    },
+    {
+      "id": "cat-knitwear",
+      "slug": "sweaters-knitwear",
+      "name": {
+        "en": "Sweaters & Knitwear",
+        "ar": "كنزات وتريكو"
+      },
+      "description": {
+        "en": "Cozy ribbed sweaters, soft pullovers and fine knitwear",
+        "ar": "كنزات تريكو ناعمة ومحبوكة بدقة فائقة"
+      },
+      "image": "/src/assets/images/outfit_coral_fringe_vest_set_1791815939488.jpg",
+      "order": 2
+    },
+    {
+      "id": "cat-tops",
+      "slug": "tops-sweatshirts",
+      "name": {
+        "en": "Tops & Sweatshirts",
+        "ar": "سويت شيرت وتوبات"
+      },
+      "description": {
+        "en": "Casual sweatshirts with signature striped rib trims",
+        "ar": "سويت شيرت كاجوال راقية بتفاصيل مقلمة مميزة"
+      },
+      "image": "/src/assets/images/sweatshirt_grey_striped_trim_1791815950268.jpg",
+      "order": 3
+    },
+    {
+      "id": "cat-vests",
+      "slug": "vests-cardigans",
+      "name": {
+        "en": "Vests & Cardigans",
+        "ar": "جيليهات وكارديجان"
+      },
+      "description": {
+        "en": "Handcrafted crochet vests with fringe and floral cardigans",
+        "ar": "جيليهات كروشيه يدوية بشراشيب وكارديجانات مزهرة"
+      },
+      "image": "/src/assets/images/outfit_teal_fruit_crochet_vest_1791815959889.jpg",
+      "order": 4
+    },
+    {
+      "id": "cat-trousers",
+      "slug": "trousers-jeans",
+      "name": {
+        "en": "Trousers & Jeans",
+        "ar": "بناطيل وجينزات"
+      },
+      "description": {
+        "en": "High-waisted ivory flares, tailored linen and premium denim",
+        "ar": "بناطيل شارلستون عاجية، كتان أنيق وجينزات كلاسيكية"
+      },
+      "image": "/src/assets/images/fashion_collection_casual_1791813931281.jpg",
+      "order": 5
+    },
+    {
+      "id": "cat-dresses",
+      "slug": "dresses-modest-fashion",
+      "name": {
+        "en": "Dresses & Modest Fashion",
+        "ar": "فساتين وقفاطين راقية"
+      },
+      "description": {
+        "en": "Gold-embroidered kaftans, modest maxi dresses and evening gowns",
+        "ar": "قفاطين مطرزة بالذهب، فساتين طويلة وأزياء سهرة محتشمة"
+      },
+      "image": "/src/assets/images/dress_olive_gold_kaftan_1791816060544.jpg",
+      "order": 6
+    },
+    {
+      "id": "cat-sets",
+      "slug": "matching-outfits",
+      "name": {
+        "en": "Matching Outfits",
+        "ar": "أطقم وإطلالات منسقة"
+      },
+      "description": {
+        "en": "Complete head-to-toe coordinated sets and lookbook styles",
+        "ar": "أطقم متناسقة بالكامل لإطلالة متكاملة وجذابة"
+      },
+      "image": "/src/assets/images/outfit_daisy_crochet_vest_1791816050009.jpg",
+      "order": 7
+    },
+    {
+      "id": "cat-accessories",
+      "slug": "bags-accessories",
+      "name": {
+        "en": "Bags & Accessories",
+        "ar": "حقائب وإكسسوارات"
+      },
+      "description": {
+        "en": "Architectural leather bags, embroidered evening purses and straw clutches",
+        "ar": "حقائب يد جلدية هندسية وحقائب سهرة مطرزة"
+      },
+      "image": "/src/assets/images/bag_black_origami_tote_1791816070850.jpg",
+      "order": 8
+    },
+    {
+      "id": "cat-sale",
+      "slug": "seasonal-sale",
+      "name": {
+        "en": "Seasonal Sale",
+        "ar": "عروض حصرية"
+      },
+      "description": {
+        "en": "Selected boutique creations with special promotional prices",
+        "ar": "قطع وتصاميم مختارة بأسعار ترويجية خاصة"
+      },
+      "image": "/src/assets/images/outfit_ivory_gold_kaftan_duster_1791815982138.jpg",
+      "order": 9
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-set-01",
+      "slug": "coral-fringe-crochet-vest-sweater-set",
+      "sku": "JB-301",
+      "name": {
+        "en": "Terracotta Fringe Crochet Vest & Knit Set",
+        "ar": "طقم جيليه كروشيه بشراشيب تين وتريكو عاجي وبنطال فلير"
+      },
+      "description": {
+        "en": "A signature 3-piece coordinated boutique ensemble featuring a soft warm cream ribbed crewneck knit sweater, an artisanal terracotta coral crochet vest with geometric square cutouts and flowing fringe tassels, paired with tailored ivory flare trousers with pressed crease.",
+        "ar": "طقم متناسق فاخر مكوّن من 3 قطع: كنزة تريكو ناعمة باللون العاجي المريح، جيليه كروشيه يدوي بلون التراكوتا المرجاني بشراشيب طويلة وفتحات هندسية، وبنطال شارلستون عالي الخصر بلون الأوف وايت."
+      },
+      "price": 95,
+      "salePrice": 85,
+      "category": "cat-sets",
+      "collection": "Artisanal Knitwear 2026",
+      "images": [
+        "/src/assets/images/outfit_coral_fringe_vest_set_1791815939488.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)",
+        "42 (XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Terracotta & Ivory",
+          "nameAr": "تراكوتا وعاجي",
+          "hex": "#D9745A"
+        },
+        {
+          "nameEn": "Warm Sand",
+          "nameAr": "رملي دافئ",
+          "hex": "#E0CFBA"
+        }
+      ],
+      "stock": 14,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-12T10:00:00Z"
+    },
+    {
+      "id": "prod-top-01",
+      "slug": "heather-grey-striped-rib-sweatshirt",
+      "sku": "JB-302",
+      "name": {
+        "en": "Heather Grey Sweatshirt with Striped Rib Trim",
+        "ar": "سويت شيرت رمادي مريح بياقة وحواشي مقلمة"
+      },
+      "description": {
+        "en": "Essential luxury casual pullover crafted from ultra-soft brushed French terry cotton. Features contrast diagonal grey-and-white striped ribbed crew collar, complemented by wide vertical striped waist hem and cuffs for a polished preppy look.",
+        "ar": "سويت شيرت كاجوال راقي مصنوع من قطن ناعم فاخر، يتميز بياقة مقلمة بالرمادي والأبيض، وأطراف مطاطية مقلمة عريضة على الخصر والأكمام لمظهر يومي أنيق ومريح."
+      },
+      "price": 48,
+      "category": "cat-tops",
+      "collection": "Preppy Casuals",
+      "images": [
+        "/src/assets/images/sweatshirt_grey_striped_trim_1791815950268.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "nameEn": "Heather Grey",
+          "nameAr": "رمادي فاتح",
+          "hex": "#A7A8AA"
+        },
+        {
+          "nameEn": "Charcoal Grey",
+          "nameAr": "رمادي داكن",
+          "hex": "#505052"
+        }
+      ],
+      "stock": 25,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-11T12:00:00Z"
+    },
+    {
+      "id": "prod-set-02",
+      "slug": "boho-citrus-fruit-crochet-vest-teal-outfit",
+      "sku": "JB-303",
+      "name": {
+        "en": "Boho Citrus Fruit Crochet Vest & Teal Knit Set",
+        "ar": "طقم جيليه كروشيه الفواكه الملونة وتوب تريكو تركواز"
+      },
+      "description": {
+        "en": "A playful and vibrant artisanal lookbook set: features a rich deep teal ribbed knit long-sleeve top, layered under an authentic cream crochet vest with hand-stitched citrus slices (orange, lemon, watermelon) and long tassel fringes, styled with ivory flare denim jeans.",
+        "ar": "طقم كروشيه بوهيمي مميز ومبهج: توب تريكو مضلع بلون التركواز الداكن، مع جيليه كروشيه يدوي مطرز بقطع الفواكه الملونة المنعشة (ليمون، برتقال، بطيخ) وشراشيب بوهيمية طويلة، مع بنطال عاجي أنيق."
+      },
+      "price": 92,
+      "salePrice": 79,
+      "category": "cat-vests",
+      "collection": "Spring Bohemia",
+      "images": [
+        "/src/assets/images/outfit_teal_fruit_crochet_vest_1791815959889.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Teal & Beige Citrus",
+          "nameAr": "تركواز وبيج",
+          "hex": "#1B6B6D"
+        },
+        {
+          "nameEn": "Ivory Natural",
+          "nameAr": "عاجي طبيعي",
+          "hex": "#F5EFE6"
+        }
+      ],
+      "stock": 10,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "createdAt": "2026-03-10T14:00:00Z"
+    },
+    {
+      "id": "prod-top-02",
+      "slug": "noir-black-monochrome-striped-knit-sweatshirt",
+      "sku": "JB-304",
+      "name": {
+        "en": "Noir Black Sweatshirt with Monochrome Striped Trim",
+        "ar": "سويت شيرت أسود ملكي بأطراف مقلمة أبيض وأسود"
+      },
+      "description": {
+        "en": "Timeless Parisian-inspired minimalist crewneck in jet black fine-knit cotton. Accented with sharp high-contrast black-and-white diagonal striped crewneck collar and vertical striped cuffs and hem. Perfect pairing with wide trousers or denim.",
+        "ar": "سويت شيرت أسود كلاسيكي بقصة مريحة وقماش فاخر ناعم، مزين بياقة وحواشي مقلمة باللونين الأبيض والأسود الكلاسيكيين لتنسيق أنيق مع الجينز والبناطيل الرسمية."
+      },
+      "price": 52,
+      "salePrice": 45,
+      "category": "cat-tops",
+      "collection": "Monochrome Edit",
+      "images": [
+        "/src/assets/images/sweatshirt_black_striped_trim_1791815970713.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "nameEn": "Noir Black",
+          "nameAr": "أسود ملكي",
+          "hex": "#121212"
+        }
+      ],
+      "stock": 20,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "createdAt": "2026-03-09T11:00:00Z"
+    },
+    {
+      "id": "prod-set-03",
+      "slug": "ivory-gold-embroidered-kaftan-duster-set",
+      "sku": "JB-305",
+      "name": {
+        "en": "Ivory Gold-Embroidered Kaftan Duster Outfit",
+        "ar": "إطلالة قفطان أبيض دوشيس مطرز بالذهب مع حقيبة قش"
+      },
+      "description": {
+        "en": "Luxurious modest summer elegance: includes a fluid full-length open-front ivory kaftan coat embellished with vertical gold metallic threadwork along the sleeves and wide gold braided borders. Coordinated with a relaxed inner tee, denim bermuda, and metallic gold straw clutch.",
+        "ar": "إطلالة صيفية ومحتشمة غاية في الرقي: كارديجان قفطان طويل مفتوح بلون العاج الفاخر مع تطريز ذهبي بخيوط ميتاليك على الأكمام وأطراف ذهبية فخمة، منسق مع توب أبيض ناعم وشورت دنيم وكلاتش قش ذهبي."
+      },
+      "price": 125,
+      "salePrice": 110,
+      "category": "cat-dresses",
+      "collection": "Golden Hour Kaftans",
+      "images": [
+        "/src/assets/images/outfit_ivory_gold_kaftan_duster_1791815982138.jpg"
+      ],
+      "sizes": [
+        "38 (S/M)",
+        "40 (M/L)",
+        "42 (L/XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Ivory & Metallic Gold",
+          "nameAr": "عاجي وذهبي",
+          "hex": "#F4EFE6"
+        },
+        {
+          "nameEn": "Sand Gold",
+          "nameAr": "بيج ذهبي",
+          "hex": "#E3D5BE"
+        }
+      ],
+      "stock": 8,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-08T15:00:00Z"
+    },
+    {
+      "id": "prod-set-04",
+      "slug": "beige-floral-openwork-crochet-cardigan-ensemble",
+      "sku": "JB-306",
+      "name": {
+        "en": "Beige Floral Crochet Cardigan & White Denim Set",
+        "ar": "طقم كارديجان كروشيه بيج بنقشة الزهور وقميص أبيض وبنطال جينز"
+      },
+      "description": {
+        "en": "Romantic French Riviera aesthetic: intricate handmade floral openwork short crochet cardigan in soft oat beige with pearlized buttons, layered over a tailored white collared cotton shirt with delicate lace inset, completed with crisp wide-leg white jeans.",
+        "ar": "طقم كروشيه فرنسي رومانسي وأنيق: كارديجان قصير مخرم بنقشات الزهور الناعمة بلون البيج الشوفاني مع أزرار لؤلؤية، منسق فوق قميص أبيض كلاسيكي مطرز وبنطال جينز عريض ناصع البياض."
+      },
+      "price": 98,
+      "category": "cat-knitwear",
+      "collection": "Romantic Lace & Crochet",
+      "images": [
+        "/src/assets/images/outfit_beige_crochet_cardigan_1791816027019.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)",
+        "42 (XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Oatmeal Beige & Pure White",
+          "nameAr": "بيج وأبيض ناصع",
+          "hex": "#E4D9C8"
+        }
+      ],
+      "stock": 11,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-07T16:00:00Z"
+    },
+    {
+      "id": "prod-top-03",
+      "slug": "vanilla-cream-powder-blue-striped-sweatshirt",
+      "sku": "JB-307",
+      "name": {
+        "en": "Vanilla Cream Sweatshirt with Blue Striped Accents",
+        "ar": "سويت شيرت كريمي ناعم بحواشي وياقة مقلمة باللون السماوي"
+      },
+      "description": {
+        "en": "Ultra-flattering relaxed sweatshirt in luscious vanilla cream cotton fleece. Enhanced with playful powder-blue and crisp white striped ribbing at the neck, cuffs, and hemline. Soft, cozy, and effortlessly elevated.",
+        "ar": "سويت شيرت نسائي مريح بلون الكريمة والفانيلا الدافئ، يتميز بياقة وحواشي مقلمة باللون الأزرق السماوي والأبيض الناصع. مريح جداً وعصري للإطلالات اليومية والجامعية."
+      },
+      "price": 49,
+      "category": "cat-tops",
+      "collection": "Preppy Casuals",
+      "images": [
+        "/src/assets/images/sweatshirt_ivory_blue_stripes_1791816037795.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "nameEn": "Vanilla Cream & Baby Blue",
+          "nameAr": "كريمي وسماوي",
+          "hex": "#F8F2E2"
+        }
+      ],
+      "stock": 18,
+      "isAvailable": true,
+      "isFeatured": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "createdAt": "2026-03-06T10:00:00Z"
+    },
+    {
+      "id": "prod-set-05",
+      "slug": "pastel-daisy-crochet-vest-sky-blue-shirt-set",
+      "sku": "JB-308",
+      "name": {
+        "en": "Pastel Daisy Crochet Vest & Sky Blue Shirt Set",
+        "ar": "طقم جيليه كروشيه بزهور الأقحوان وقميص أزرق سماوي مع جينز"
+      },
+      "description": {
+        "en": "Chic retro springtime harmony: includes a pristine sky-blue tailored long-sleeve cotton shirt accessorized with a gold floral brooch, topped with a handcrafted cream crochet vest dotted with sunny yellow and baby blue daisy florets, paired with light-wash vintage straight denim.",
+        "ar": "طقم ربيعي عصري وأنيق: قميص قطني فاخر بلون السماء الصافية مع بروش ذهبي أنيق، جيليه كروشيه بلون الأوف وايت مزين بزهور الأقحوان الصفراء والزرقاء الناعمة، مع بنطال جينز كلاسيكي فاتح."
+      },
+      "price": 89,
+      "salePrice": 78,
+      "category": "cat-sets",
+      "collection": "Spring Daisy Collection",
+      "images": [
+        "/src/assets/images/outfit_daisy_crochet_vest_1791816050009.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Sky Blue & Pastel Daisy",
+          "nameAr": "أزرق سماوي وزهور",
+          "hex": "#8FB8DE"
+        }
+      ],
+      "stock": 12,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-05T09:00:00Z"
+    },
+    {
+      "id": "prod-dress-01",
+      "slug": "olive-green-royal-gold-embroidered-kaftan-dress",
+      "sku": "JB-309",
+      "name": {
+        "en": "Olive Royal Gold Embroidered Kaftan Dress",
+        "ar": "فستان قفطان زيتي ملكي بتطريز ذهبي فاخر مع حقيبة سهرة"
+      },
+      "description": {
+        "en": "Majestic modest silhouette in rich moss olive green crepe silk. Features ornate geometric gold embroidery framing the split neckline, bordered sleeve hems, and lower hemline. Accompanied by a handcrafted triangular beaded chain evening purse for a gala ready look.",
+        "ar": "قفطان ملكي محتشم بلون الزيتي الراقي من قماش الحرير الكريب، مزين بتطريز هندسي ذهبي فخم حول الياقة وأطراف الأكمام والذيل، ويأتي مع حقيبة يد سهرة هرمية مطرزة بالخرز الذهبي وسلسال ناعم."
+      },
+      "price": 140,
+      "salePrice": 125,
+      "category": "cat-dresses",
+      "collection": "Modest Royalty 2026",
+      "images": [
+        "/src/assets/images/dress_olive_gold_kaftan_1791816060544.jpg"
+      ],
+      "sizes": [
+        "38 (S)",
+        "40 (M)",
+        "42 (L)",
+        "44 (XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Olive Moss & Gold",
+          "nameAr": "زيتي ملكي وذهب",
+          "hex": "#556B2F"
+        }
+      ],
+      "stock": 7,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-04T13:00:00Z"
+    },
+    {
+      "id": "prod-bag-01",
+      "slug": "architectural-origami-black-leather-tote",
+      "sku": "JB-310",
+      "name": {
+        "en": "Architectural Origami Geometric Black Leather Handbag",
+        "ar": "حقيبة يد جلدية أوريغامي هندسية باللون الأسود المات"
+      },
+      "description": {
+        "en": "Sculptural Italian calfskin leather tote bag inspired by modern origami geometry. Features a striking triangular integrated handle, clean folded structural panels, and a spacious magnetic-close interior. The ultimate high-fashion statement accessory.",
+        "ar": "حقيبة يد استثنائية من الجلد الإيطالي الفاخر بتصميم هندسي مستوحى من فن الأوريغامي الياباني، بمقبض مثلث مدمج وطيّات هندسية ساحرة وإغلاق مغناطيسي محكم. قطعة فنية تمنحك حضوراً لافتاً."
+      },
+      "price": 115,
+      "salePrice": 99,
+      "category": "cat-accessories",
+      "collection": "Haute Accessories",
+      "images": [
+        "/src/assets/images/bag_black_origami_tote_1791816070850.jpg"
+      ],
+      "sizes": [
+        "One Size (30cm x 26cm)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Matte Noir",
+          "nameAr": "أسود مات",
+          "hex": "#1A1A1A"
+        }
+      ],
+      "stock": 9,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-03T11:00:00Z"
+    },
+    {
+      "id": "prod-001",
+      "slug": "beirut-royale-champagne-couture-gown",
+      "sku": "JB-2601",
+      "name": {
+        "en": "Beirut Royale Champagne Gown",
+        "ar": "فستان بيروت الملكي باللون الشامباني"
+      },
+      "description": {
+        "en": "Bespoke hand-embroidered evening gown crafted with sheer silk tulle, delicate gold beadwork, and statement balloon sleeves. Featuring a sweeping majestic train inspired by Lebanese haute couture heritage.",
+        "ar": "فستان سهرة ملكي مشغول يدوياً بالخرز والترتر الذهبي على تول الحرير الطبيعي مع أكمام منفوخة ساحرة وقصة انسيابية مستوحاة من عراقة الأزياء اللبنانية."
+      },
+      "price": 280,
+      "salePrice": 245,
+      "category": "cat-dresses",
+      "collection": "Haute Couture 2026",
+      "images": [
+        "/src/assets/images/hero_editorial_banner_1791813908419.jpg",
+        "/src/assets/images/fashion_collection_evening_1791813920709.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)",
+        "42 (XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Champagne Gold",
+          "nameAr": "ذهبي شامباني",
+          "hex": "#D4AF37"
+        },
+        {
+          "nameEn": "Soft Ivory",
+          "nameAr": "عاجي ناعم",
+          "hex": "#FAF8F5"
+        }
+      ],
+      "stock": 5,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "prod-003",
+      "slug": "byblos-linen-tailored-palazzo-set",
+      "sku": "JB-2603",
+      "name": {
+        "en": "Byblos Ivory Tailored Linen Set",
+        "ar": "طقم بليزر وبنطال بيبلوس كتان عاجي"
+      },
+      "description": {
+        "en": "Luxurious two-piece modern tailored set in breathable premium Italian linen. Includes a relaxed structured single-breasted blazer and fluid wide-leg palazzo pants with tortoise-shell horn buttons.",
+        "ar": "طقم قطعتين فاخر من الكتان الطبيعي المريح، يشمل بليزر أنيق بقصة كلاسيكية وبنطال بالازو عريض عالي الخصر، مثالي للإطلالات الصيفية الراقية والاجتماعات."
+      },
+      "price": 130,
+      "category": "cat-trousers",
+      "collection": "Modern Muse",
+      "images": [
+        "/src/assets/images/fashion_collection_casual_1791813931281.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)",
+        "42 (XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Ivory Cream",
+          "nameAr": "أوف وايت كريمي",
+          "hex": "#F5F2EB"
+        },
+        {
+          "nameEn": "Sand Beige",
+          "nameAr": "بيج رملي",
+          "hex": "#E2D7C5"
+        }
+      ],
+      "stock": 12,
+      "isAvailable": true,
+      "isFeatured": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "createdAt": "2026-02-28T09:00:00Z"
+    },
+    {
+      "id": "prod-004",
+      "slug": "sultana-gold-embroidered-evening-abaya-kaftan",
+      "sku": "JB-311",
+      "name": {
+        "en": "Sultana Gold-Embroidered Velvet & Satin Abaya Kaftan",
+        "ar": "عباية السلطانة الراقية بتطريز مذهب وقماش ساتان فاخر"
+      },
+      "description": {
+        "en": "Epitome of Middle Eastern luxury: exquisite open-front evening abaya kaftan in luminous satin finish with delicate hand-embroidered golden borders, tailored for special occasions and Ramadan soirées.",
+        "ar": "قمة الفخامة الشرقية المعاصرة: عباية قفطان سهرة مفتوحة بقماش الساتان اللامع وأطراف مطرزة يدوياً بخيوط الذهب، مصممة لأرقى المناسبات والسهرات الخاصة."
+      },
+      "price": 165,
+      "salePrice": 145,
+      "category": "cat-dresses",
+      "collection": "Golden Hour Kaftans",
+      "images": [
+        "/src/assets/images/fashion_collection_abaya_1791813949088.jpg"
+      ],
+      "sizes": [
+        "38 (S/M)",
+        "40 (M/L)",
+        "42 (L/XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Black & Shimmering Gold",
+          "nameAr": "أسود وذهب لامع",
+          "hex": "#1A1A1A"
+        },
+        {
+          "nameEn": "Champagne Bronze",
+          "nameAr": "برونز شامباني",
+          "hex": "#C5A880"
+        }
+      ],
+      "stock": 10,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-12T11:00:00Z"
+    },
+    {
+      "id": "prod-002",
+      "slug": "rose-gold-embellished-satin-cocktail-dress",
+      "sku": "JB-312",
+      "name": {
+        "en": "Rose-Gold Embellished Satin Cocktail Dress",
+        "ar": "فستان كوكتيل روز جولد مطرز بالخرز وقماش الساتان"
+      },
+      "description": {
+        "en": "Glamorous modern evening silhouette in luminous blush and rose-gold satin. Decorated with hand-set micro-crystals and beadwork across the bodice, draping effortlessly into a fluid midi hem.",
+        "ar": "فستان سهرة أنثوي ساحر بلون الروز جولد والوردي الناعم من الساتان الفاخر، مزين بحبات الكريستال والخرز اليدوي الدقيق على الصدر مع قصة انسيابية ساحرة."
+      },
+      "price": 195,
+      "salePrice": 175,
+      "category": "cat-dresses",
+      "collection": "Haute Couture 2026",
+      "images": [
+        "/src/assets/images/fashion_collection_evening_1791813920709.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Rose Gold & Blush",
+          "nameAr": "روز جولد ووردي",
+          "hex": "#E0A99A"
+        },
+        {
+          "nameEn": "Champagne Shimmer",
+          "nameAr": "شامباني براق",
+          "hex": "#E6D7BE"
+        }
+      ],
+      "stock": 8,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "createdAt": "2026-03-12T10:30:00Z"
+    },
+    {
+      "id": "prod-005",
+      "slug": "emerald-royale-pleated-silk-maxi-dress",
+      "sku": "JB-313",
+      "name": {
+        "en": "Emerald Royale Pleated Silk Maxi Dress",
+        "ar": "فستان ماكسي زمردي ملكي بكسرات بليسيه من الحرير"
+      },
+      "description": {
+        "en": "Captivating viral boutique creation: vibrant emerald green pure silk maxi dress featuring precision accordion pleats that catch the light with every step, delicate flutter sleeves, and cinched waist.",
+        "ar": "تصميم استثنائي ملفت للأنظار: فستان طويل باللون الأخضر الزمردي الملكي مصنوع من الحرير الناعم مع كسرات بليسيه دقيقة تتمايل مع كل حركة، وأكمام انسيابية رقيقة."
+      },
+      "price": 155,
+      "salePrice": 139,
+      "category": "cat-dresses",
+      "collection": "Modern Muse",
+      "images": [
+        "/src/assets/images/reels_fashion_model_1791813958864.jpg"
+      ],
+      "sizes": [
+        "36 (S)",
+        "38 (M)",
+        "40 (L)",
+        "42 (XL)"
+      ],
+      "colors": [
+        {
+          "nameEn": "Royal Emerald Green",
+          "nameAr": "أخضر زمردي ملكي",
+          "hex": "#1B4D3E"
+        }
+      ],
+      "stock": 14,
+      "isAvailable": true,
+      "isFeatured": true,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "createdAt": "2026-03-12T10:00:00Z"
+    }
+  ],
+  "instagram": [
+    {
+      "id": "ig-frame-04",
+      "type": "image",
+      "mediaUrl": "/src/assets/images/reel_frame_04.jpg",
+      "thumbnailUrl": "/src/assets/images/reel_frame_04.jpg",
+      "caption": {
+        "en": "New season details from our official Instagram reel @jouriboutiquee.",
+        "ar": "تفاصيل التشكيلة الجديدة من الريلز الرسمي للبوتيك @jouriboutiquee."
+      },
+      "instagramUrl": "https://www.instagram.com/reel/DdA88uiqa1u/",
+      "linkedProductId": "prod-dress-01",
+      "showOnHome": true,
+      "viewsOrLikes": "16 likes",
+      "createdAt": "2026-09-07T14:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1001",
+      "orderNumber": "JB-1041",
+      "customerName": "Nour El-Khoury",
+      "customerPhone": "+961 70 891 234",
+      "deliveryAddress": "Achrafieh, Sursock Street, Beirut",
+      "city": "Beirut",
+      "items": [
+        {
+          "productId": "prod-set-01",
+          "productName": "Terracotta Fringe Crochet Vest & Knit Set",
+          "size": "38 (M)",
+          "color": "Terracotta & Ivory",
+          "price": 85,
+          "quantity": 1,
+          "image": "/src/assets/images/outfit_coral_fringe_vest_set_1791815939488.jpg"
+        }
+      ],
+      "subtotal": 85,
+      "shippingFee": 3,
+      "total": 88,
+      "currency": "USD",
+      "status": "shipped",
+      "notes": "Please call before arrival. Delivery in afternoon.",
+      "createdAt": "2026-03-11T14:22:00Z"
+    },
+    {
+      "id": "ord-1002",
+      "orderNumber": "JB-1042",
+      "customerName": "Yara Haddad",
+      "customerPhone": "+961 81 234 567",
+      "deliveryAddress": "Ghazieh Main Road, South Lebanon",
+      "city": "Saida / Ghazieh",
+      "items": [
+        {
+          "productId": "prod-dress-01",
+          "productName": "Olive Royal Gold Embroidered Kaftan Dress",
+          "size": "40 (M)",
+          "color": "Olive Moss & Gold",
+          "price": 125,
+          "quantity": 1,
+          "image": "/src/assets/images/dress_olive_gold_kaftan_1791816060544.jpg"
+        }
+      ],
+      "subtotal": 125,
+      "shippingFee": 0,
+      "total": 125,
+      "currency": "USD",
+      "status": "confirmed",
+      "notes": "Urgent for family gathering this weekend!",
+      "createdAt": "2026-03-12T08:15:00Z"
+    }
+  ],
+  "adminPassword": "jouri2026"
+}

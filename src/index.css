@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-arabic: "Tajawal", "Segoe UI", Tahoma, sans-serif;
+
+  --color-ivory: #FAF8F5;
+  --color-sand: #F3EFEA;
+  --color-gold: #C5A880;
+  --color-gold-hover: #B4966F;
+  --color-gold-dark: #97764D;
+  --color-champagne: #EFE7DE;
+  --color-blush: #FDF4F4;
+  --color-blush-soft: #F9EBEA;
+  --color-blush-deep: #E8CAC8;
+  --color-noir: #141413;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Ensure all media fits within its parent without blowing out width */
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+@layer base {
+  [dir="rtl"] {
+    font-family: "Tajawal", "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+  [dir="ltr"] {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+}
+
+/* Custom smooth scrollbar & luxury focus */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D0C5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A880;
+}
+
+/* Prevent unwanted horizontal swipe bounce on horizontal scrolling ribbons */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Crisp image rendering for high-DPI and pixelation prevention */
+.crisp-image-render {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+}

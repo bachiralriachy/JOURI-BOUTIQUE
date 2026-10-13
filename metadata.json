@@ -1,0 +1,6 @@
+{
+  "name": "JOURI BOUTIQUE | Luxury Fashion & Haute Couture",
+  "description": "Premium Lebanese fashion boutique offering luxury evening wear, bespoke abayas, and ready-to-wear with direct WhatsApp ordering and bilingual Arabic/English experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
